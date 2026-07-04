@@ -1,0 +1,134 @@
+{
+  "id": "5bcc2621-67a2-47bd-a4fb-0240710d5088",
+  "name": "The Book Club",
+  "rows": 6,
+  "cols": 6,
+  "individuals": [
+    {
+      "name": "Ada",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Brigitte",
+      "color": "#3498db"
+    },
+    {
+      "name": "Cameron",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Darlene",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Edison",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Vinita",
+      "color": "#1abc9c"
+    }
+  ],
+  "puzzle_clues": [],
+  "individual_clues": {
+    "0": "She was beside a plant.",
+    "1": "She was south of Cameron.",
+    "2": "She was on a carpet.",
+    "3": "She was the only person sitting in a chair.",
+    "4": "He in in the Library. He was not beside a shelf.",
+    "5": "The Victim. She was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,1": "bookshelf",
+    "0,4": "bookshelf",
+    "0,5": "bookshelf",
+    "1,0": "bookshelf",
+    "2,3": "bookshelf",
+    "2,4": "bookshelf",
+    "4,5": "table",
+    "5,5": "table",
+    "5,4": "table",
+    "5,0": "table",
+    "4,4": "carpet",
+    "4,1": "carpet",
+    "4,2": "carpet",
+    "3,2": "carpet",
+    "1,1": "carpet",
+    "1,2": "carpet",
+    "1,3": "carpet",
+    "1,4": "carpet",
+    "1,5": "carpet",
+    "2,1": "chair",
+    "3,0": "chair",
+    "4,0": "chair",
+    "5,2": "chair",
+    "0,2": "plant",
+    "5,3": "plant"
+  },
+  "rooms": {
+    "room_1782782015177": {
+      "name": "Library",
+      "cells": [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "1,5",
+        "1,4",
+        "2,4",
+        "2,3",
+        "1,3",
+        "1,2",
+        "1,1",
+        "1,0"
+      ],
+      "_color": "#1abc9c"
+    },
+    "room_1782782041810": {
+      "name": "Discussion Circle",
+      "cells": [
+        "3,3",
+        "4,3",
+        "5,3",
+        "5,2",
+        "4,2",
+        "3,2",
+        "2,2",
+        "2,1",
+        "2,0",
+        "3,0",
+        "4,0",
+        "5,0",
+        "5,1",
+        "4,1",
+        "3,1"
+      ],
+      "_color": "#e67e22"
+    },
+    "room_1782782058904": {
+      "name": "Refreshments",
+      "cells": [
+        "2,5",
+        "3,4",
+        "3,5",
+        "4,4",
+        "4,5",
+        "5,4",
+        "5,5"
+      ],
+      "_color": "#16a085"
+    }
+  },
+  "difficulty": "Very Easy",
+  "solution": {
+    "0,3": 0,
+    "1,2": 4,
+    "2,5": 5,
+    "3,0": 3,
+    "4,4": 2,
+    "5,1": 1
+  },
+  "created_at": "2026-06-30T01:14:49.130934"
+}

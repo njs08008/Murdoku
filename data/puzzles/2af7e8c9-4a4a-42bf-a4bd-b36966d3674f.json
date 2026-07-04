@@ -1,0 +1,256 @@
+{
+  "id": "2af7e8c9-4a4a-42bf-a4bd-b36966d3674f",
+  "name": "Frontier Town",
+  "rows": 10,
+  "cols": 10,
+  "individuals": [
+    {
+      "name": "Abigail",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Bessie",
+      "color": "#3498db"
+    },
+    {
+      "name": "Curtis",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Duke",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Etta",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Frank",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Garrett",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Hazel",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Ivy",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Virgil",
+      "color": "#3498db"
+    }
+  ],
+  "puzzle_clues": [
+    "There's exactly one outlaw hiding amongst the suspects. The outlaw may or may not be the murderer.",
+    "The outlaw was beside a table."
+  ],
+  "individual_clues": {
+    "0": "She was beside a cash register.",
+    "1": "She was in a corner of her area.",
+    "2": "He was sitting in a chair.",
+    "3": "Not the outlaw. He was beside a chair.",
+    "4": "She was in the Bank.",
+    "5": "He was sitting on a horse.",
+    "6": "He was beside a cactus.",
+    "7": "She was sitting in a chair. She was with the outlaw.",
+    "8": "She was south of Hazel, in a different area.",
+    "9": "The victim. Not the outlaw. He was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,1": "table",
+    "1,5": "table",
+    "1,6": "table",
+    "9,3": "table",
+    "8,6": "table",
+    "8,7": "table",
+    "7,7": "table",
+    "7,9": "table",
+    "1,1": "bed",
+    "1,2": "bed",
+    "0,2": "bookshelf",
+    "2,1": "bookshelf",
+    "6,0": "bookshelf",
+    "9,0": "bookshelf",
+    "9,2": "bookshelf",
+    "7,2": "bookshelf",
+    "6,8": "bookshelf",
+    "9,9": "cash register",
+    "7,3": "cash register",
+    "9,6": "safe",
+    "2,2": "money bag",
+    "2,4": "money bag",
+    "7,5": "money bag",
+    "7,0": "money bag",
+    "0,8": "cactus",
+    "2,9": "cactus",
+    "4,0": "cactus",
+    "6,4": "cactus",
+    "0,9": "horse",
+    "1,3": "horse",
+    "1,0": "chair",
+    "2,7": "chair",
+    "3,7": "chair",
+    "3,4": "chair",
+    "4,4": "chair",
+    "3,8": "horse",
+    "6,9": "chair",
+    "8,1": "chair"
+  },
+  "rooms": {
+    "room_1782839663416": {
+      "name": "Pastor's House",
+      "cells": [
+        "0,0",
+        "2,1",
+        "2,0",
+        "1,0",
+        "1,1",
+        "1,2",
+        "0,2",
+        "0,1"
+      ],
+      "_color": "#3498db"
+    },
+    "room_1782839677196": {
+      "name": "General Store",
+      "cells": [
+        "9,0",
+        "9,1",
+        "9,2",
+        "9,3",
+        "8,3",
+        "7,3",
+        "7,2",
+        "8,2",
+        "8,1",
+        "8,0",
+        "7,0",
+        "7,1",
+        "6,2",
+        "5,2",
+        "5,1",
+        "5,0",
+        "6,0",
+        "6,1"
+      ],
+      "_color": "#2ecc71"
+    },
+    "room_1782839696856": {
+      "name": "Porch",
+      "cells": [
+        "7,4",
+        "8,4",
+        "9,4",
+        "9,5",
+        "8,5",
+        "7,5",
+        "7,6",
+        "6,6"
+      ],
+      "_color": "#f39c12"
+    },
+    "room_1782839712098": {
+      "name": "Bank",
+      "cells": [
+        "8,6",
+        "9,6",
+        "9,7",
+        "8,7",
+        "8,8",
+        "9,8",
+        "9,9",
+        "8,9",
+        "6,7",
+        "7,7",
+        "6,8",
+        "7,8",
+        "6,9",
+        "7,9"
+      ],
+      "_color": "#9b59b6"
+    },
+    "room_1782839726981": {
+      "name": "Chapel",
+      "cells": [
+        "0,7",
+        "1,7",
+        "2,7",
+        "3,7",
+        "4,7",
+        "4,6",
+        "4,5",
+        "4,4",
+        "3,4",
+        "2,4",
+        "1,4",
+        "0,4",
+        "0,5",
+        "0,6",
+        "1,6",
+        "2,6",
+        "3,6",
+        "3,5",
+        "2,5",
+        "1,5"
+      ],
+      "_color": "#1abc9c"
+    },
+    "room_1782839760690": {
+      "name": "Desert",
+      "cells": [
+        "3,0",
+        "4,0",
+        "4,1",
+        "3,1",
+        "3,2",
+        "0,3",
+        "1,3",
+        "2,3",
+        "2,2",
+        "3,3",
+        "4,3",
+        "4,2",
+        "5,3",
+        "6,3",
+        "6,4",
+        "5,4",
+        "5,5",
+        "6,5",
+        "5,6",
+        "5,7",
+        "5,8",
+        "4,8",
+        "3,8",
+        "2,8",
+        "1,8",
+        "0,8",
+        "0,9",
+        "1,9",
+        "2,9",
+        "3,9",
+        "4,9",
+        "5,9"
+      ],
+      "_color": "#e67e22"
+    }
+  },
+  "difficulty": "Hard",
+  "solution": {
+    "0,5": 9,
+    "1,0": 2,
+    "2,6": 3,
+    "3,8": 5,
+    "4,1": 6,
+    "5,2": 1,
+    "6,9": 7,
+    "8,3": 0,
+    "9,7": 4,
+    "7,4": 8
+  },
+  "created_at": "2026-06-30T17:22:57.498465"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "a3f01eb4-459a-464f-a1d7-dc5ba6731648",
+  "name": "Grizzly Night",
+  "rows": 9,
+  "cols": 9,
+  "individuals": [
+    {
+      "name": "Alicia",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Brenda",
+      "color": "#3498db"
+    },
+    {
+      "name": "Clark",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Dylan",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Ezequiel",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Florence",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "George",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Holden",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Victor",
+      "color": "#e74c3c"
+    }
+  ],
+  "puzzle_clues": [
+    "There was exactly one person on a carpet."
+  ],
+  "individual_clues": {
+    "0": "She was in Tent A or Tent C.",
+    "1": "She was not on a carpet. She was in the top or in the bottom row.",
+    "2": "He was the only person beside a shrub.",
+    "3": "He was on a bed.",
+    "4": "He was the only person in a car.",
+    "5": "She was in the last column. She was south of Clark.",
+    "6": "He was sitting in a chair.",
+    "7": "He was in the Woods. Someone else was beside the bear.",
+    "8": "The Victim. He was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,1": "car",
+    "0,2": "car",
+    "1,3": "car",
+    "1,4": "car",
+    "1,7": "bed",
+    "1,6": "bed",
+    "6,1": "bed",
+    "6,2": "bed",
+    "7,7": "bed",
+    "7,6": "bed",
+    "1,0": "shrub",
+    "3,0": "shrub",
+    "3,4": "shrub",
+    "4,8": "shrub",
+    "7,3": "shrub",
+    "8,4": "tree",
+    "5,3": "tree",
+    "4,3": "bear",
+    "0,5": "table",
+    "8,8": "table",
+    "4,5": "table",
+    "3,5": "table",
+    "4,6": "chair",
+    "6,4": "chair",
+    "7,0": "chair",
+    "6,7": "chair",
+    "2,7": "carpet",
+    "2,6": "carpet",
+    "8,0": "carpet",
+    "8,1": "carpet",
+    "8,2": "carpet",
+    "7,2": "carpet",
+    "8,5": "carpet",
+    "8,6": "carpet",
+    "8,7": "carpet"
+  },
+  "rooms": {
+    "room_1782840321134": {
+      "name": "Clearing",
+      "cells": [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "1,4",
+        "1,3",
+        "1,2",
+        "1,1",
+        "1,0",
+        "2,0",
+        "2,1"
+      ],
+      "_color": "#16a085"
+    },
+    "room_1782840332609": {
+      "name": "Tent A",
+      "cells": [
+        "2,4",
+        "2,5",
+        "2,6",
+        "2,7",
+        "2,8",
+        "0,8",
+        "1,6",
+        "1,5",
+        "0,5",
+        "0,6",
+        "0,7",
+        "1,7",
+        "1,8"
+      ],
+      "_color": "#8e44ad"
+    },
+    "room_1782840344485": {
+      "name": "Tent B",
+      "cells": [
+        "8,0",
+        "8,1",
+        "8,2",
+        "7,2",
+        "6,2",
+        "5,2",
+        "4,1",
+        "4,0",
+        "5,0",
+        "6,0",
+        "7,0",
+        "7,1",
+        "6,1",
+        "5,1"
+      ],
+      "_color": "#27ae60"
+    },
+    "room_1782840360060": {
+      "name": "Tent C",
+      "cells": [
+        "8,8",
+        "8,7",
+        "8,6",
+        "8,5",
+        "7,5",
+        "6,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "7,8",
+        "7,7",
+        "7,6"
+      ],
+      "_color": "#d35400"
+    },
+    "room_1782840370555": {
+      "name": "Woods",
+      "cells": [
+        "8,3",
+        "8,4",
+        "7,4",
+        "7,3",
+        "6,3",
+        "6,4",
+        "5,4",
+        "5,3",
+        "4,2",
+        "3,0",
+        "3,1",
+        "3,2",
+        "2,2",
+        "2,3",
+        "3,3",
+        "4,3",
+        "4,4",
+        "3,4",
+        "3,5",
+        "4,5",
+        "5,5",
+        "5,6",
+        "5,7",
+        "5,8",
+        "4,8",
+        "4,7",
+        "4,6",
+        "3,6",
+        "3,7",
+        "3,8"
+      ],
+      "_color": "#2980b9"
+    }
+  },
+  "difficulty": "Hard",
+  "solution": {
+    "0,7": 1,
+    "1,4": 4,
+    "2,2": 7,
+    "3,3": 2,
+    "4,6": 6,
+    "5,0": 8,
+    "6,1": 3,
+    "7,8": 5,
+    "8,5": 0
+  },
+  "created_at": "2026-06-30T17:29:27.353984"
+}

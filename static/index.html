@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Murdoku</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">MURDO<span>KU</span></span>
+  <button id="nav-home">📋 Puzzles</button>
+  <button id="nav-new">＋ New Puzzle</button>
+  <button id="nav-leaderboard">🏆 Leaderboard</button>
+  <button id="nav-objects">🗂 Objects</button>
+</nav>
+
+<main>
+
+  <!-- ── Home ─────────────────────────────────────────────────────────────── -->
+  <div id="view-home">
+    <h1>Your Puzzles</h1>
+    <div id="home-filters"></div>
+    <div id="in-progress-section"></div>
+    <div id="puzzle-list"></div>
+  </div>
+
+  <!-- ── Creator ──────────────────────────────────────────────────────────── -->
+  <div id="view-creator" class="hidden">
+    <h1 id="creator-title">New Puzzle</h1>
+    <div class="creator-layout">
+
+      <div class="creator-left">
+        <div class="form-group">
+          <label>Puzzle Name</label>
+          <input type="text" id="puzzle-name-input" placeholder="e.g. The Manor Mystery" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Rows</label>
+            <input type="number" id="puzzle-rows-input" value="6" min="2" max="12" />
+          </div>
+          <div class="form-group">
+            <label>Columns</label>
+            <input type="number" id="puzzle-cols-input" value="6" min="2" max="12" />
+          </div>
+          <div class="form-group">
+            <label>Difficulty</label>
+            <select id="puzzle-difficulty-input">
+              <option value="">— unset —</option>
+              <option value="Very Easy">Very Easy</option>
+              <option value="Easy">Easy</option>
+              <option value="Medium">Medium</option>
+              <option value="Hard">Hard</option>
+              <option value="Expert">Expert</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Puzzle-wide Clues <small>(one per line)</small></label>
+          <textarea id="puzzle-clues-input" placeholder="The crime occurred near a window.&#10;The victim was found at dawn."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Individuals</label>
+          <div id="individuals-editor"></div>
+        </div>
+        <div class="creator-footer">
+          <button class="btn btn-primary" id="save-puzzle-btn">💾 Save Puzzle</button>
+          <button class="btn btn-ghost"   id="cancel-creator-btn">Cancel</button>
+        </div>
+      </div>
+
+      <div class="creator-right">
+        <div class="creator-grid-section">
+          <h2>Grid Setup</h2>
+          <div class="creator-grid-modes">
+            <button class="btn btn-secondary active" id="creator-mode-graphic">🪑 Objects</button>
+            <button class="btn btn-secondary"        id="creator-mode-solution">✔ Solution</button>
+            <button class="btn btn-secondary"        id="creator-mode-rooms">🏠 Rooms</button>
+          </div>
+          <p class="mode-hint">
+            <span id="mode-hint-graphic"><strong>Objects:</strong> Select an object below, then click cells to place it. Click the same object again or 🧹 Erase to clear. <strong>Right-click any cell to delete it from the grid</strong> (right-click again to restore).</span>
+            <span id="mode-hint-solution" class="hidden"><strong>Solution:</strong> Click a cell to assign who belongs there. Blocked and deleted cells cannot be assigned. <strong>Right-click to delete/restore cells.</strong></span>
+            <span id="mode-hint-rooms"    class="hidden"><strong>Rooms:</strong> Create rooms, select one, then click cells to paint them in. <strong>Right-click to delete/restore cells.</strong></span>
+          </p>
+
+          <!-- Object toolbar — visible in graphic mode -->
+          <div id="object-toolbar" class="object-toolbar"></div>
+
+          <!-- Room panel — visible in rooms mode -->
+          <div id="room-panel" class="hidden"></div>
+
+          <div class="creator-grid" id="creator-grid"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── Solver ────────────────────────────────────────────────────────────── -->
+  <div id="view-solver" class="hidden">
+    <div class="solver-layout">
+
+      <!-- Left panel: clues + individuals -->
+      <div class="solver-left">
+        <div class="solver-left-header">
+          <button class="btn btn-ghost btn-sm" id="solver-back-btn">← Back</button>
+          <span class="solver-puzzle-title" id="solver-puzzle-name"></span>
+        </div>
+
+        <div class="clues-panel">
+          <h2>📌 Puzzle Clues</h2>
+          <ul id="puzzle-wide-clues"></ul>
+        </div>
+
+        <div class="lineup-section">
+          <h2>🧑 Individuals</h2>
+          <p class="lineup-hint">Click to select for current tool · click again to highlight pencil marks</p>
+          <div class="individual-lineup-grid" id="individual-lineup"></div>
+        </div>
+      </div>
+
+      <!-- Right panel: toolbar + grid -->
+      <div class="solver-right">
+        <div class="solver-top-bar">
+          <div class="timer-display" id="solver-timer">00:00</div>
+          <div class="solver-tools">
+            <button class="btn tool-btn active" data-tool="pencil" title="Pencil — add/remove candidate marks">✏️ Pencil</button>
+            <button class="btn tool-btn"        data-tool="pen"    title="Lock a person into a cell">🔒 Lock</button>
+            <button class="btn tool-btn"        data-tool="eraser" title="Erase a cell">🧹 Erase</button>
+            <button class="btn tool-btn"        data-tool="x"      title="Mark a cell as empty">✕ X</button>
+            <button class="btn btn-ghost"       id="undo-btn"      title="Undo last action" disabled>↩ Undo</button>
+          </div>
+          <div id="active-individual-display" class="active-ind-display">No individual selected</div>
+          <div class="solver-action-btns">
+            <button class="btn btn-secondary btn-sm" id="reset-btn">↺ Reset</button>
+            <button class="btn btn-primary"          id="submit-btn">✔ Submit</button>
+          </div>
+        </div>
+
+        <p class="solver-hint">
+          Select a tool above and an individual from the left, then click cells. Right-click any cell to toggle X.
+        </p>
+
+        <div class="solver-grid" id="solver-grid"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── Leaderboard ───────────────────────────────────────────────────────── -->
+  <div id="view-leaderboard" class="hidden">
+    <div class="leaderboard-header">
+      <button class="btn btn-ghost btn-sm" id="leaderboard-back-btn">← Back</button>
+      <h1 id="leaderboard-title">🏆 Leaderboard</h1>
+    </div>
+    <div id="leaderboard-filters"></div>
+    <div class="leaderboard-table-wrap">
+      <table>
+        <thead>
+          <tr><th>#</th><th>Player</th><th>Puzzle</th><th>Difficulty</th><th>Time</th><th>Date</th><th></th></tr>
+        </thead>
+        <tbody id="leaderboard-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ── Object Library ────────────────────────────────────────────────────── -->
+  <div id="view-objects" class="hidden">
+    <div class="obj-lib-header">
+      <button class="btn btn-ghost btn-sm" id="obj-back-btn">← Back</button>
+      <h1>🗂 Object Library</h1>
+    </div>
+    <p style="color:var(--text2);margin-bottom:1rem;font-size:.9rem">
+      Manage the objects available to place in puzzle cells.
+      Objects with <strong>Blocks placement</strong> checked prevent any individual from being placed in that cell.
+    </p>
+    <div class="obj-lib-actions">
+      <button class="btn btn-secondary" id="obj-add-btn">＋ Add Object</button>
+      <button class="btn btn-primary"   id="obj-save-btn">💾 Save Library</button>
+      <button class="btn btn-ghost"     id="obj-reset-btn">↺ Restore Defaults</button>
+    </div>
+    <div class="obj-list-header">
+      <span>Preview</span><span>Icon / Upload</span><span>Label</span><span>ID</span><span>Blocks</span><span></span>
+    </div>
+    <div id="object-list"></div>
+  </div>
+
+</main>
+
+<!-- Modal -->
+<div id="modal-overlay" class="hidden">
+  <div id="modal-box"></div>
+</div>
+
+<script src="/js/api.js"></script>
+<script src="/js/rooms.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/puzzle-creator.js"></script>
+<script src="/js/puzzle-solver.js"></script>
+<script src="/js/leaderboard.js"></script>
+<script src="/js/object-library.js"></script>
+</body>
+</html>

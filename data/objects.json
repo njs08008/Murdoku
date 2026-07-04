@@ -1,0 +1,326 @@
+[
+  {
+    "blocks": true,
+    "icon": "\ud83d\udee2",
+    "id": "barrel",
+    "label": "Barrel"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udc3b",
+    "id": "bear",
+    "label": "Bear"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udecf",
+    "id": "bed",
+    "label": "Bed"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udeb4",
+    "id": "bonsai",
+    "label": "Bonsai"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udcda",
+    "id": "bookshelf",
+    "label": "Bookshelf"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udea8",
+    "id": "boulder",
+    "label": "Boulder"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udce6",
+    "id": "box",
+    "label": "Box"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf35",
+    "id": "cactus",
+    "label": "Cactus"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udde8",
+    "id": "cannon",
+    "label": "Cannon"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\ude97",
+    "id": "car",
+    "label": "Car"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83e\uddf6",
+    "id": "carpet",
+    "label": "Carpet"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud80c\udf1d",
+    "id": "carriage",
+    "label": "Carriage"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udefa",
+    "id": "cart",
+    "label": "Cart"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udce0",
+    "id": "cash register",
+    "label": "Cash Register"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83e\ude91",
+    "id": "chair",
+    "label": "Chair"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udcb0",
+    "id": "chest",
+    "label": "Chest"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udcbb",
+    "id": "computer",
+    "label": "Computer"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udce6",
+    "id": "crate",
+    "label": "Crate"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udc0a",
+    "id": "crocodile",
+    "label": "Crocodile"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\uddbc\ufe0f",
+    "id": "easel",
+    "label": "Easel"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udc18",
+    "id": "elephant",
+    "label": "Elephant"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udea9",
+    "id": "flag",
+    "label": "Flag"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf38",
+    "id": "flowers",
+    "label": "Flowers"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\uddd1\ufe0f",
+    "id": "garbage can",
+    "label": "Garbage Can"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udecf",
+    "id": "hammock",
+    "label": "Hammock"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udc0e",
+    "id": "horse",
+    "label": "Horse"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83c\udfe0",
+    "id": "house",
+    "label": "House"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf0b",
+    "id": "lava",
+    "label": "Lava"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udeb7",
+    "id": "lily pad",
+    "label": "Lily Pad"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udd81",
+    "id": "lion",
+    "label": "Lion"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\ude9e",
+    "id": "mirror",
+    "label": "Mirror"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udcb0",
+    "id": "money bag",
+    "label": "Money Bag"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udc12",
+    "id": "monkey",
+    "label": "Monkey"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udfe4",
+    "id": "mud puddle",
+    "label": "Mud Puddle"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udee2\ufe0f",
+    "id": "oil slick",
+    "label": "Oil Slick"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83e\uddf1",
+    "id": "path",
+    "label": "Path"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udc27",
+    "id": "penguin",
+    "label": "Penguin"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf3f",
+    "id": "plant",
+    "label": "Plant"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udca7",
+    "id": "puddle",
+    "label": "Puddle"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udea3",
+    "id": "raft",
+    "label": "Raft"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\uddf5",
+    "id": "rope",
+    "label": "Rope"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udea8",
+    "id": "rubble",
+    "label": "Rubble"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udd12",
+    "id": "safe",
+    "label": "Safe"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83c\udffc",
+    "id": "sand",
+    "label": "Sand"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83e\udd88",
+    "id": "shark",
+    "label": "Shark"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf33",
+    "id": "shrub",
+    "label": "Shrub"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\uddff",
+    "id": "statue",
+    "label": "Statue"
+  },
+  {
+    "blocks": true,
+    "icon": "\u252c\u2500\u252c",
+    "id": "table",
+    "label": "Table"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83d\udccd",
+    "id": "tee",
+    "label": "Tee"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udcfa",
+    "id": "television",
+    "label": "Television"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83c\udf32",
+    "id": "tree",
+    "label": "Tree"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83c\udf0a",
+    "id": "water",
+    "label": "Water"
+  },
+  {
+    "blocks": true,
+    "icon": "\ud83d\udd35",
+    "id": "water trap",
+    "label": "Water Trap"
+  },
+  {
+    "blocks": false,
+    "icon": "\ud83e\ude93",
+    "id": "weapons rack",
+    "label": "Weapons Rack"
+  }
+]

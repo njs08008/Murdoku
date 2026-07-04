@@ -1,0 +1,239 @@
+{
+  "id": "4abdba35-29ee-43cf-a24d-0967014f3c21",
+  "name": "Preppers",
+  "rows": 9,
+  "cols": 9,
+  "individuals": [
+    {
+      "name": "Angelo",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Blake",
+      "color": "#3498db"
+    },
+    {
+      "name": "Carolina",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Darla",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Emelia",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Friedrich",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Grady",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Howie",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Vivianna",
+      "color": "#e74c3c"
+    }
+  ],
+  "puzzle_clues": [],
+  "individual_clues": {
+    "0": "There was a box in his area. He was not beside it.",
+    "1": "He was in the Bedroom.",
+    "2": "There was a man on the bed in her room.",
+    "3": "Someone else was beside a shelf in her area.",
+    "4": "She was in the bottom row.",
+    "5": "He was beside a TV.",
+    "6": "He was sitting in a chair.",
+    "7": "He was in the Bathroom.",
+    "8": "The Victim. She was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,7": "car",
+    "0,6": "car",
+    "2,8": "shrub",
+    "3,0": "shrub",
+    "1,2": "table",
+    "1,1": "table",
+    "2,1": "table",
+    "2,3": "table",
+    "4,3": "table",
+    "5,2": "table",
+    "6,0": "table",
+    "6,2": "table",
+    "3,6": "bookshelf",
+    "5,7": "bookshelf",
+    "5,3": "bookshelf",
+    "8,1": "bookshelf",
+    "8,7": "bookshelf",
+    "6,5": "bookshelf",
+    "7,2": "box",
+    "8,4": "box",
+    "8,6": "box",
+    "6,6": "box",
+    "7,7": "box",
+    "7,8": "box",
+    "5,8": "box",
+    "1,7": "box",
+    "2,6": "television",
+    "6,1": "television",
+    "1,4": "chair",
+    "2,4": "chair",
+    "3,3": "chair",
+    "5,1": "chair",
+    "7,1": "chair",
+    "4,5": "bed",
+    "4,4": "bed",
+    "7,0": "bed",
+    "8,0": "bed"
+  },
+  "rooms": {
+    "room_1782788822830": {
+      "name": "Yard",
+      "cells": [
+        "5,0",
+        "4,0",
+        "3,0",
+        "2,0",
+        "1,0",
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        "0,6",
+        "0,7",
+        "0,8",
+        "1,8",
+        "1,7",
+        "2,7",
+        "3,7",
+        "4,7",
+        "4,8",
+        "3,8",
+        "2,8"
+      ],
+      "_color": "#3498db"
+    },
+    "room_1782788828438": {
+      "name": "Kitchen",
+      "cells": [
+        "3,1",
+        "3,2",
+        "3,3",
+        "2,3",
+        "1,3",
+        "1,2",
+        "1,1",
+        "2,1",
+        "2,2"
+      ],
+      "_color": "#2ecc71"
+    },
+    "room_1782788832678": {
+      "name": "Living Room",
+      "cells": [
+        "3,4",
+        "3,5",
+        "3,6",
+        "2,6",
+        "1,6",
+        "1,5",
+        "1,4",
+        "2,4",
+        "2,5"
+      ],
+      "_color": "#f39c12"
+    },
+    "room_1782788837774": {
+      "name": "Bathroom",
+      "cells": [
+        "5,1",
+        "4,1",
+        "4,2",
+        "5,2"
+      ],
+      "_color": "#9b59b6"
+    },
+    "room_1782788842420": {
+      "name": "Secret Stairs",
+      "cells": [
+        "6,3",
+        "7,3",
+        "7,4"
+      ],
+      "_color": "#1abc9c"
+    },
+    "room_1782788847762": {
+      "name": "Safe Room",
+      "cells": [
+        "8,4",
+        "8,3",
+        "8,2",
+        "8,1",
+        "8,0",
+        "7,2",
+        "6,2",
+        "6,1",
+        "6,0",
+        "7,0",
+        "7,1"
+      ],
+      "_color": "#e67e22"
+    },
+    "room_1782788855305": {
+      "name": "Supply",
+      "cells": [
+        "8,8",
+        "7,8",
+        "6,8",
+        "5,8",
+        "5,7",
+        "6,7",
+        "7,7",
+        "8,7",
+        "6,6",
+        "6,5",
+        "7,5",
+        "8,5",
+        "7,6",
+        "8,6"
+      ],
+      "_color": "#16a085"
+    },
+    "room_1782788993746": {
+      "name": "Bedroom",
+      "cells": [
+        "4,3",
+        "5,3",
+        "6,4",
+        "5,4",
+        "5,5",
+        "5,6",
+        "4,6",
+        "4,5",
+        "4,4"
+      ],
+      "_color": "#8e44ad"
+    }
+  },
+  "difficulty": "Medium",
+  "solution": {
+    "0,8": 0,
+    "1,6": 5,
+    "2,7": 8,
+    "3,3": 6,
+    "4,5": 1,
+    "5,1": 7,
+    "7,0": 3,
+    "8,2": 4,
+    "6,4": 2
+  },
+  "created_at": "2026-06-30T03:14:59.484440"
+}

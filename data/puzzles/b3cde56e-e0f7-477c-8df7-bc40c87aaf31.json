@@ -1,0 +1,220 @@
+{
+  "id": "b3cde56e-e0f7-477c-8df7-bc40c87aaf31",
+  "name": "The Remote Village",
+  "rows": 9,
+  "cols": 9,
+  "individuals": [
+    {
+      "name": "Arnold",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Bruce",
+      "color": "#3498db"
+    },
+    {
+      "name": "Connor",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Delilah",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Ethan",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Fern",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Graham",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Hedda",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Vaughn",
+      "color": "#e74c3c"
+    }
+  ],
+  "puzzle_clues": [
+    "There was exactly one person sitting in a chair."
+  ],
+  "individual_clues": {
+    "0": "There was a woman inside a car exactly one row south of him.",
+    "1": "He was beside a tree.",
+    "2": "He was north of Ethan.",
+    "3": "There was no man in her area.",
+    "4": "There was at least one woman in his area.",
+    "5": "She was on a carpet.",
+    "6": "He was in the fifth column.",
+    "7": "She was beside a shrub.",
+    "8": "The Victim. He was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,1": "flowers",
+    "0,3": "shrub",
+    "0,4": "tree",
+    "0,7": "bookshelf",
+    "0,8": "chair",
+    "1,6": "chair",
+    "1,7": "table",
+    "2,0": "box",
+    "2,2": "box",
+    "2,6": "chair",
+    "2,7": "table",
+    "2,8": "table",
+    "3,0": "box",
+    "3,3": "flowers",
+    "3,6": "carpet",
+    "3,7": "carpet",
+    "4,0": "bookshelf",
+    "4,1": "bookshelf",
+    "4,2": "carpet",
+    "4,8": "chair",
+    "5,2": "carpet",
+    "5,4": "shrub",
+    "5,5": "car",
+    "5,6": "car",
+    "6,0": "bookshelf",
+    "6,1": "bookshelf",
+    "6,2": "carpet",
+    "6,4": "car",
+    "6,5": "car",
+    "7,0": "chair",
+    "7,1": "table",
+    "7,2": "carpet",
+    "7,3": "carpet",
+    "7,6": "tree",
+    "8,0": "table",
+    "8,1": "table",
+    "8,3": "box",
+    "8,6": "flowers"
+  },
+  "rooms": {
+    "room_1782842038365": {
+      "_color": "#e74c3c",
+      "cells": [
+        "8,0",
+        "8,1",
+        "8,2",
+        "8,3",
+        "8,4",
+        "7,4",
+        "7,3",
+        "7,2",
+        "7,1",
+        "7,0",
+        "6,0",
+        "6,1",
+        "6,2",
+        "5,2",
+        "5,1",
+        "5,0",
+        "4,0",
+        "4,1",
+        "4,2"
+      ],
+      "name": "General Store"
+    },
+    "room_1782842070816": {
+      "_color": "#2ecc71",
+      "cells": [
+        "8,7",
+        "8,6",
+        "8,5",
+        "7,7",
+        "6,7",
+        "5,7",
+        "5,6",
+        "5,5",
+        "6,5",
+        "7,5",
+        "7,6",
+        "6,6",
+        "6,4",
+        "6,3",
+        "5,3",
+        "5,4",
+        "4,5",
+        "4,4",
+        "4,3",
+        "3,3",
+        "3,4",
+        "2,4",
+        "2,3",
+        "1,3",
+        "1,4",
+        "0,4",
+        "0,1",
+        "0,2",
+        "0,3",
+        "1,2",
+        "1,1"
+      ],
+      "name": "Woods"
+    },
+    "room_1782842089823": {
+      "_color": "#f39c12",
+      "cells": [
+        "2,0",
+        "3,0",
+        "2,1",
+        "2,2",
+        "3,1",
+        "3,2"
+      ],
+      "name": "Storage"
+    },
+    "room_1782842097726": {
+      "_color": "#9b59b6",
+      "cells": [
+        "0,8",
+        "1,8",
+        "2,8",
+        "3,8",
+        "4,8",
+        "4,7",
+        "4,6",
+        "3,5",
+        "2,5",
+        "1,5",
+        "0,5",
+        "0,6",
+        "0,7",
+        "1,7",
+        "3,7",
+        "3,6",
+        "2,6",
+        "1,6",
+        "2,7"
+      ],
+      "name": "Tavern"
+    }
+  },
+  "difficulty": "Hard",
+  "solution": {
+    "0,2": 2,
+    "1,8": 4,
+    "2,1": 3,
+    "3,7": 5,
+    "4,3": 0,
+    "5,5": 7,
+    "6,6": 1,
+    "7,0": 8,
+    "8,4": 6
+  },
+  "created_at": "2026-06-30T18:01:21.972718",
+  "deleted_cells": [
+    "0,0",
+    "1,0",
+    "5,8",
+    "6,8",
+    "7,8",
+    "8,8"
+  ]
+}

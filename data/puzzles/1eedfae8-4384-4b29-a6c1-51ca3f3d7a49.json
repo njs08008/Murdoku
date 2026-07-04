@@ -1,0 +1,274 @@
+{
+  "id": "1eedfae8-4384-4b29-a6c1-51ca3f3d7a49",
+  "name": "The Circus",
+  "rows": 9,
+  "cols": 12,
+  "individuals": [
+    {
+      "name": "Arnold",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Brenda",
+      "color": "#3498db"
+    },
+    {
+      "name": "Cecily",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Daniel",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Eddie",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Frederick",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Gerald",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Harleen",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Vanessa",
+      "color": "#e74c3c"
+    }
+  ],
+  "puzzle_clues": [
+    "The Ring Acrobat was on a carpet.",
+    "The Knife Juggler was exactly one row north of a weapons rack.",
+    "The Lion Tamer was beside a lion."
+  ],
+  "individual_clues": {
+    "0": "The Ringmaster. He was sitting on a horse.",
+    "1": "The column directly east of her was empty.",
+    "2": "She was 4 rows south of Eddie.",
+    "3": "He was alone. The column directly west of him was empty.",
+    "4": "The Clown. A barrel was in his column somewhere. All other columns with a barrel were empty.",
+    "5": "The Firebreather. He was in the Dressing Room.",
+    "6": "Spectator. He was sitting in a chair, east of the Lion Tamer.",
+    "7": "Spectator. She was sitting 3 columns west of the Ring Acrobat.",
+    "8": "The Victim. She was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,10": "horse",
+    "0,11": "table",
+    "0,2": "table",
+    "0,3": "chair",
+    "0,4": "chair",
+    "0,5": "chair",
+    "0,6": "table",
+    "1,1": "chair",
+    "1,11": "horse",
+    "1,2": "chair",
+    "1,3": "carpet",
+    "1,4": "barrel",
+    "1,5": "carpet",
+    "1,6": "chair",
+    "1,7": "chair",
+    "2,0": "table",
+    "2,1": "chair",
+    "2,11": "table",
+    "2,3": "carpet",
+    "2,4": "carpet",
+    "2,5": "carpet",
+    "2,7": "chair",
+    "2,9": "carpet",
+    "3,0": "chair",
+    "3,3": "horse",
+    "3,5": "lion",
+    "3,7": "weapons rack",
+    "3,8": "carpet",
+    "4,10": "bookshelf",
+    "4,8": "carpet",
+    "4,9": "carpet",
+    "5,0": "table",
+    "5,1": "barrel",
+    "5,3": "lion",
+    "5,7": "barrel",
+    "5,8": "carpet",
+    "6,1": "chair",
+    "6,11": "weapons rack",
+    "6,2": "barrel",
+    "6,3": "carpet",
+    "6,4": "carpet",
+    "6,5": "carpet",
+    "6,7": "chair",
+    "6,8": "table",
+    "6,9": "table",
+    "7,10": "table",
+    "7,2": "chair",
+    "7,3": "carpet",
+    "7,4": "carpet",
+    "7,5": "carpet",
+    "7,7": "chair",
+    "7,9": "table",
+    "8,11": "bookshelf",
+    "8,2": "chair",
+    "8,3": "chair",
+    "8,5": "chair",
+    "8,6": "chair"
+  },
+  "rooms": {
+    "room_1782850241520": {
+      "_color": "#d35400",
+      "cells": [
+        "0,11",
+        "0,10",
+        "1,10",
+        "1,11",
+        "2,11",
+        "2,10",
+        "2,9",
+        "1,9"
+      ],
+      "name": "Stable"
+    },
+    "room_1782850259129": {
+      "_color": "#2980b9",
+      "cells": [
+        "8,11",
+        "8,10",
+        "8,9",
+        "7,9",
+        "6,9",
+        "6,10",
+        "7,10",
+        "7,11",
+        "6,11",
+        "5,10",
+        "4,10",
+        "4,11",
+        "5,11"
+      ],
+      "name": "Dressing Room"
+    },
+    "room_1782850293885": {
+      "_color": "#e74c3c",
+      "cells": [
+        "3,9",
+        "4,9",
+        "5,9",
+        "5,8",
+        "4,8",
+        "3,8"
+      ],
+      "name": "Entrance"
+    },
+    "room_1782850341865": {
+      "_color": "#3498db",
+      "cells": [
+        "5,7",
+        "4,7",
+        "3,7",
+        "2,6",
+        "1,5",
+        "1,4",
+        "1,3",
+        "2,2",
+        "3,1",
+        "4,1",
+        "5,1",
+        "6,2",
+        "7,3",
+        "7,4",
+        "7,5",
+        "6,6",
+        "6,5",
+        "6,4",
+        "6,3",
+        "5,2",
+        "5,3",
+        "5,4",
+        "5,5",
+        "5,6",
+        "4,6",
+        "3,6",
+        "4,5",
+        "3,5",
+        "2,5",
+        "2,4",
+        "2,3",
+        "3,2",
+        "4,2",
+        "4,3",
+        "4,4",
+        "3,4",
+        "3,3"
+      ],
+      "name": "Ring"
+    },
+    "room_1782850384274": {
+      "_color": "#2ecc71",
+      "cells": [
+        "2,8",
+        "2,7",
+        "1,7",
+        "1,6",
+        "0,6",
+        "0,5",
+        "0,4",
+        "0,3",
+        "0,2",
+        "0,1",
+        "1,1",
+        "1,2",
+        "2,1",
+        "2,0",
+        "3,0",
+        "4,0",
+        "5,0",
+        "6,0",
+        "6,1",
+        "7,1",
+        "7,2",
+        "8,2",
+        "8,3",
+        "8,4",
+        "8,5",
+        "8,6",
+        "7,6",
+        "7,7",
+        "6,7",
+        "6,8"
+      ],
+      "name": "Stands"
+    }
+  },
+  "difficulty": "Hard",
+  "solution": {
+    "0,1": 4,
+    "1,11": 0,
+    "2,9": 8,
+    "3,0": 7,
+    "4,5": 2,
+    "5,8": 3,
+    "6,10": 5,
+    "7,3": 1,
+    "8,6": 6
+  },
+  "created_at": "2026-06-30T20:18:45.650443",
+  "deleted_cells": [
+    "3,11",
+    "3,10",
+    "0,9",
+    "0,7",
+    "1,8",
+    "0,8",
+    "7,8",
+    "8,8",
+    "8,7",
+    "7,0",
+    "8,0",
+    "8,1",
+    "1,0",
+    "0,0"
+  ]
+}

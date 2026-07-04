@@ -1,0 +1,204 @@
+{
+  "id": "2fc4034c-8b68-43cb-88f3-27d55d0a786c",
+  "name": "Lakeside Cabin",
+  "rows": 9,
+  "cols": 9,
+  "individuals": [
+    {
+      "name": "Alice",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Bonnie",
+      "color": "#3498db"
+    },
+    {
+      "name": "Camila",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Daniel",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Eliza",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Finlay",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Gilbert",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Harper",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Vincenzo",
+      "color": "#e74c3c"
+    }
+  ],
+  "puzzle_clues": [],
+  "individual_clues": {
+    "0": "She was in the Cabin alone with another woman.",
+    "1": "She was exactly one row above Harper.",
+    "2": "She was in the fifth row.",
+    "3": "He was south of Alice and west of Finlay.",
+    "4": "She was the only person sitting on a chair.",
+    "5": "He was beside a tree. Someone north of him was beside the same tree.",
+    "6": "He was not in a corner.",
+    "7": "He was in Forest (West) or Forest (East). He was not beside a tree.",
+    "8": "The Victim. He was alone with the murderer."
+  },
+  "graphic_elements": {
+    "1,7": "crate",
+    "8,8": "crate",
+    "8,2": "crate",
+    "7,0": "crate",
+    "7,7": "table",
+    "2,3": "chair",
+    "4,7": "chair",
+    "6,6": "chair",
+    "5,8": "tree",
+    "3,8": "tree",
+    "2,8": "tree",
+    "0,7": "tree",
+    "0,6": "tree",
+    "0,3": "tree",
+    "1,3": "tree",
+    "2,2": "tree",
+    "1,1": "tree",
+    "3,0": "tree",
+    "5,1": "tree",
+    "7,2": "tree"
+  },
+  "rooms": {
+    "room_1782788437397": {
+      "name": "Forest (West)",
+      "cells": [
+        "0,4",
+        "1,4",
+        "0,3",
+        "1,3",
+        "2,3",
+        "0,1",
+        "0,2",
+        "0,0",
+        "1,0",
+        "1,1",
+        "1,2",
+        "2,2",
+        "3,2",
+        "2,1",
+        "2,0",
+        "3,0",
+        "4,0",
+        "5,0",
+        "6,0",
+        "7,0",
+        "3,1",
+        "4,1",
+        "5,1",
+        "6,1",
+        "7,1",
+        "6,2",
+        "7,2",
+        "8,2",
+        "8,4",
+        "7,4",
+        "7,3",
+        "8,3"
+      ],
+      "_color": "#8e44ad"
+    },
+    "room_1782788446605": {
+      "name": "Forest (East)",
+      "cells": [
+        "0,5",
+        "1,5",
+        "0,6",
+        "1,6",
+        "0,7",
+        "1,7",
+        "2,6",
+        "2,7",
+        "3,7",
+        "4,7",
+        "5,8",
+        "4,8",
+        "1,8",
+        "2,8",
+        "3,8",
+        "0,8"
+      ],
+      "_color": "#27ae60"
+    },
+    "room_1782788450632": {
+      "name": "Shed",
+      "cells": [
+        "8,0",
+        "8,1"
+      ],
+      "_color": "#d35400"
+    },
+    "room_1782788452607": {
+      "name": "Lake",
+      "cells": [
+        "6,4",
+        "6,3",
+        "5,2",
+        "4,2",
+        "3,3",
+        "2,4",
+        "2,5",
+        "3,6",
+        "4,6",
+        "5,7",
+        "5,6",
+        "5,5",
+        "5,4",
+        "5,3",
+        "4,3",
+        "4,4",
+        "3,5",
+        "4,5",
+        "3,4"
+      ],
+      "_color": "#2980b9"
+    },
+    "room_1782788458761": {
+      "name": "Cabin",
+      "cells": [
+        "8,8",
+        "8,7",
+        "8,6",
+        "8,5",
+        "7,5",
+        "6,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "7,8",
+        "7,7",
+        "7,6"
+      ],
+      "_color": "#e74c3c"
+    }
+  },
+  "difficulty": "Medium",
+  "solution": {
+    "0,4": 1,
+    "1,5": 7,
+    "2,1": 6,
+    "3,2": 5,
+    "4,3": 2,
+    "5,7": 8,
+    "6,6": 4,
+    "7,8": 0,
+    "8,0": 3
+  },
+  "created_at": "2026-06-30T03:04:55.051353"
+}

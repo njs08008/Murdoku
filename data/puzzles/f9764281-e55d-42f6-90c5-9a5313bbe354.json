@@ -1,0 +1,238 @@
+{
+  "id": "f9764281-e55d-42f6-90c5-9a5313bbe354",
+  "name": "27. Seaside Restaurant",
+  "rows": 9,
+  "cols": 9,
+  "individuals": [
+    {
+      "name": "Alan",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Briana",
+      "color": "#3498db"
+    },
+    {
+      "name": "Courtney",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Deena",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Eugene",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Fabrice",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Graham",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Hope",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Vanessa",
+      "color": "#00bcd4"
+    }
+  ],
+  "puzzle_clues": [
+    "We're on our own here... the witnesses have all clammed up."
+  ],
+  "individual_clues": {
+    "0": "He was on the Terrace. He was not sitting.",
+    "1": "She was beside a shelf.",
+    "2": "She was sitting in a chair in the Dining Room.",
+    "3": "She was not beside a table.",
+    "4": "He was in the Restroom.",
+    "5": "He was south of Deena.",
+    "6": "He was with Briana.",
+    "7": "She was the only person on a carpet.",
+    "8": "The Victim. She was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,0": "bonsai",
+    "4,0": "bonsai",
+    "4,8": "bonsai",
+    "3,1": "chair",
+    "2,0": "chair",
+    "2,2": "chair",
+    "3,4": "chair",
+    "2,5": "chair",
+    "3,0": "table",
+    "3,2": "table",
+    "3,3": "table",
+    "3,5": "table",
+    "0,2": "table",
+    "0,7": "table",
+    "6,7": "table",
+    "6,6": "table",
+    "6,4": "table",
+    "6,2": "table",
+    "6,1": "table",
+    "7,0": "table",
+    "8,2": "table",
+    "8,3": "chair",
+    "7,1": "chair",
+    "6,0": "chair",
+    "5,1": "chair",
+    "6,3": "chair",
+    "5,3": "chair",
+    "6,5": "chair",
+    "5,6": "chair",
+    "3,6": "carpet",
+    "2,6": "carpet",
+    "5,5": "carpet",
+    "5,4": "carpet",
+    "0,4": "carpet",
+    "0,3": "carpet",
+    "1,2": "carpet",
+    "1,1": "carpet",
+    "1,0": "carpet",
+    "0,6": "bookshelf",
+    "0,5": "bookshelf",
+    "1,8": "bookshelf",
+    "3,7": "table",
+    "3,8": "table",
+    "2,8": "table",
+    "0,1": "chair"
+  },
+  "rooms": {
+    "room_1782950949234": {
+      "name": "Restroom",
+      "cells": [
+        "0,0",
+        "0,2",
+        "1,0",
+        "1,1",
+        "1,2",
+        "0,1"
+      ],
+      "_color": "#c0392b"
+    },
+    "room_1782950978239": {
+      "name": "Dining Room",
+      "cells": [
+        "0,3",
+        "0,4",
+        "1,4",
+        "1,3",
+        "2,3",
+        "2,4",
+        "2,5",
+        "2,6",
+        "3,6",
+        "3,5",
+        "3,4",
+        "3,3",
+        "3,2",
+        "2,2",
+        "2,1",
+        "2,0",
+        "3,0",
+        "3,1",
+        "4,0",
+        "4,1",
+        "4,2",
+        "4,3",
+        "4,4",
+        "4,5",
+        "4,6"
+      ],
+      "_color": "#2471a3"
+    },
+    "room_1782951020395": {
+      "name": "Terrace",
+      "cells": [
+        "5,0",
+        "6,0",
+        "6,1",
+        "5,1",
+        "5,2",
+        "6,2",
+        "6,3",
+        "5,3",
+        "5,4",
+        "6,4",
+        "7,4",
+        "7,5",
+        "6,5",
+        "5,5",
+        "5,6",
+        "6,6",
+        "7,6",
+        "5,7",
+        "6,7",
+        "6,8",
+        "5,8",
+        "4,8",
+        "4,7"
+      ],
+      "_color": "#1e8449"
+    },
+    "room_1782951028244": {
+      "name": "VIP Section",
+      "cells": [
+        "7,0",
+        "7,1",
+        "7,2",
+        "7,3",
+        "8,3",
+        "8,2",
+        "8,1",
+        "8,0"
+      ],
+      "_color": "#d68910"
+    },
+    "room_1782951036437": {
+      "name": "Kitchen",
+      "cells": [
+        "1,5",
+        "0,5",
+        "0,6",
+        "1,6",
+        "1,7",
+        "0,7",
+        "0,8",
+        "1,8",
+        "2,8",
+        "2,7",
+        "3,7",
+        "3,8"
+      ],
+      "_color": "#76448a"
+    },
+    "room_1782951044438": {
+      "name": "Sea",
+      "cells": [
+        "8,8",
+        "7,8",
+        "7,7",
+        "8,7",
+        "8,6",
+        "8,5",
+        "8,4"
+      ],
+      "_color": "#117a65"
+    }
+  },
+  "deleted_cells": [],
+  "difficulty": "",
+  "solution": {
+    "0,1": 4,
+    "3,4": 2,
+    "4,2": 8,
+    "1,6": 1,
+    "2,7": 6,
+    "6,8": 0,
+    "5,5": 7,
+    "7,3": 3,
+    "8,0": 5
+  },
+  "created_at": "2026-07-02T00:18:51.374621"
+}

@@ -1,0 +1,252 @@
+{
+  "id": "68cce287-20de-4933-8ead-370bbc7a50c0",
+  "name": "Minigolf",
+  "rows": 10,
+  "cols": 10,
+  "individuals": [
+    {
+      "name": "Albert",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Burma",
+      "color": "#3498db"
+    },
+    {
+      "name": "Craig",
+      "color": "#2ecc71"
+    },
+    {
+      "name": "Duncan",
+      "color": "#f39c12"
+    },
+    {
+      "name": "Elyana",
+      "color": "#9b59b6"
+    },
+    {
+      "name": "Faith",
+      "color": "#1abc9c"
+    },
+    {
+      "name": "Ginny",
+      "color": "#e67e22"
+    },
+    {
+      "name": "Hugo",
+      "color": "#e91e63"
+    },
+    {
+      "name": "Idril",
+      "color": "#e74c3c"
+    },
+    {
+      "name": "Valeria",
+      "color": "#3498db"
+    }
+  ],
+  "puzzle_clues": [
+    "There was exactly one person beside a table.",
+    "There was exactly one person beside a barrel."
+  ],
+  "individual_clues": {
+    "0": "He was exactly one row south of someone on a flag.",
+    "1": "She was sitting in a chair.",
+    "2": "He was not in a corner.",
+    "3": "He was the only person on a path square.",
+    "4": "She was on a sand time.",
+    "5": "She was alone.",
+    "6": "She was in the top row.",
+    "7": "He was beside some flowers.",
+    "8": "She was lone on The Desert with someone.",
+    "9": "The Victim. She was alone with the murderer."
+  },
+  "graphic_elements": {
+    "0,4": "cactus",
+    "0,5": "path",
+    "0,6": "path",
+    "0,7": "table",
+    "0,8": "table",
+    "0,9": "flowers",
+    "1,1": "sand",
+    "1,2": "sand",
+    "1,5": "path",
+    "1,6": "path",
+    "1,7": "path",
+    "2,0": "sand",
+    "2,1": "sand",
+    "2,6": "path",
+    "2,7": "path",
+    "3,1": "cactus",
+    "3,7": "barrel",
+    "4,0": "path",
+    "4,1": "path",
+    "4,8": "barrel",
+    "5,0": "path",
+    "5,1": "path",
+    "5,2": "flowers",
+    "5,6": "sand",
+    "5,7": "sand",
+    "6,3": "path",
+    "6,4": "path",
+    "6,5": "path",
+    "6,9": "table",
+    "7,4": "path",
+    "7,7": "table",
+    "7,8": "table",
+    "7,9": "table",
+    "8,9": "plant",
+    "9,5": "flowers",
+    "9,6": "chair",
+    "9,7": "chair",
+    "1,4": "flag",
+    "5,5": "flag",
+    "8,0": "flag"
+  },
+  "rooms": {
+    "room_1782841439631": {
+      "_color": "#16a085",
+      "cells": [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "1,4",
+        "1,3",
+        "1,2",
+        "1,1",
+        "1,0",
+        "2,0",
+        "3,0",
+        "3,1",
+        "2,1"
+      ],
+      "name": "The Desert"
+    },
+    "room_1782841460964": {
+      "_color": "#8e44ad",
+      "cells": [
+        "9,0",
+        "9,1",
+        "9,2",
+        "9,3",
+        "8,3",
+        "7,3",
+        "6,2",
+        "6,1",
+        "6,0",
+        "7,0",
+        "8,0",
+        "8,1",
+        "8,2",
+        "7,2",
+        "7,1"
+      ],
+      "name": "The Island"
+    },
+    "room_1782841477711": {
+      "_color": "#27ae60",
+      "cells": [
+        "9,9",
+        "9,8",
+        "9,7",
+        "9,6",
+        "8,5",
+        "7,5",
+        "6,6",
+        "6,7",
+        "6,8",
+        "6,9",
+        "7,8",
+        "8,9",
+        "7,9",
+        "8,8",
+        "8,7",
+        "7,7",
+        "7,6",
+        "8,6"
+      ],
+      "name": "Entrance"
+    },
+    "room_1782841497597": {
+      "_color": "#d35400",
+      "cells": [
+        "5,9",
+        "4,9",
+        "3,8",
+        "3,7",
+        "3,6",
+        "4,5",
+        "5,5",
+        "5,6",
+        "4,6",
+        "4,7",
+        "5,7",
+        "5,8",
+        "4,8",
+        "3,5"
+      ],
+      "name": "The Barrels"
+    },
+    "room_1782841521722": {
+      "_color": "#2980b9",
+      "cells": [
+        "6,5",
+        "9,5",
+        "9,4",
+        "8,4",
+        "7,4",
+        "6,4",
+        "6,3",
+        "5,2",
+        "5,1",
+        "5,0",
+        "4,0",
+        "4,1",
+        "4,2",
+        "4,3",
+        "5,3",
+        "5,4",
+        "4,4",
+        "3,4",
+        "3,3",
+        "3,2",
+        "2,2",
+        "2,3",
+        "2,4",
+        "2,5",
+        "1,5",
+        "0,5",
+        "0,6",
+        "1,6",
+        "2,6",
+        "2,7",
+        "1,7",
+        "0,7",
+        "0,8",
+        "1,8",
+        "0,9",
+        "1,9",
+        "2,9",
+        "2,8",
+        "3,9"
+      ],
+      "name": "Walkway"
+    }
+  },
+  "difficulty": "Hard",
+  "solution": {
+    "0,1": 6,
+    "1,4": 8,
+    "2,3": 1,
+    "3,8": 9,
+    "4,2": 7,
+    "5,7": 4,
+    "6,5": 3,
+    "7,6": 2,
+    "8,0": 5,
+    "9,9": 0
+  },
+  "created_at": "2026-06-30T17:50:31.441693"
+}
