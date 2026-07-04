@@ -161,3 +161,25 @@ If you receive a puzzle that uses objects not in your library, the app will aler
 | Frontend | Vanilla JavaScript (no framework) |
 | Styling | CSS custom properties, CSS Grid |
 | Storage | JSON files on disk |
+
+---
+
+## How This Application Was Built
+
+Murdoku was built entirely through a conversational session with **Claude** (Anthropic's AI assistant), without writing a single line of code by hand.
+
+The process worked as an extended back-and-forth: a feature or fix was described in plain English, Claude reasoned through the design, wrote the code, and explained the decisions. Bugs were reported by describing the observed behavior, and Claude diagnosed and patched them. The entire codebase — Flask backend, vanilla JS frontend, CSS, and all data structures — emerged iteratively from that conversation over many sessions.
+
+A few things that made this workflow effective:
+
+**Starting with requirements.** Before writing any code, Claude was asked to define what a Murdoku puzzle actually is and propose the full feature set. Gaps and misunderstandings were caught before they were baked into the architecture.
+
+**Incremental delivery.** Features were added one batch at a time. Each round ended with working, testable code before the next set of changes was requested. This kept bugs localized and easy to reason about.
+
+**Plain-language bug reports.** Bugs were described as behaviors ("clicking Continue doesn't do anything") rather than as code problems. Claude traced through the execution path, identified the root cause, and fixed it — often catching related issues in the same pass.
+
+**Occasional course corrections.** When Claude introduced regressions or made design choices that didn't match the intent, simply saying so was enough to get it back on track. The conversation history gave Claude full context about every prior decision.
+
+The project took shape across roughly 30 rounds of iteration, covering initial scaffolding, feature additions, layout work, bug fixes, and a final code-review pass. The result is a fully functional multi-user web application with persistent storage, a leaderboard, dynamic grid rendering, and a complete puzzle creation toolset — all produced without opening a code editor.
+
+
