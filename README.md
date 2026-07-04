@@ -97,8 +97,8 @@ murdoku/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/murdoku.git
-cd murdoku
+git clone https://github.com/njs08008/Murdoku.git
+cd Murdoku
 
 # Create and activate a virtual environment (recommended)
 python3 -m venv venv
